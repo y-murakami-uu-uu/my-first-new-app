@@ -5,15 +5,15 @@
   </div>
 </template>
 
-<script>
-import index from '../components/index.vue';
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
 
-export default {
+@Component({
   components: {
-    index
+    index: () => import('../components/index.vue')
   }
-}
-
+})
+export default class IndexPage extends Vue {}
 </script>
 
 <style>
