@@ -1,11 +1,11 @@
 {
-  "name": "second-nuxt-app",
+  "name": "my-first-nuxt-app",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "y.murakami <y.murakami@uu-uu.co.jp>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt-ts",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
